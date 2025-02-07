@@ -13,7 +13,7 @@ protected:
 public:
     Animal(string n, int e) :nombre(n), edad(e) {}
     virtual void hacerSonido() {
-        cout << nombre << "hace un sonido desconociido" << endl;
+        cout << nombre << "hace un sonido" << endl;
     }
 };
 
@@ -24,7 +24,7 @@ public:
 
     void hacerSonido()override {
 
-        cout << nombre << "dice: Guau!" << endl;
+        cout << nombre << "dice: perro!" << endl;
     }
 };
 
