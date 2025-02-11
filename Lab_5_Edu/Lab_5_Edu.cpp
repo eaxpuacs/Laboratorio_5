@@ -22,7 +22,7 @@ public:
 
     void mostrar() {
         cout << "codi: " << codigo << ", Producto: " << nombre <<
-            ", Precio: Q" << precio << ", Stock: " << stock << endl;
+            ", Precio: $" << precio << ", Stock: " << stock << endl;
     }
 
     int ObtenerCodigo() {
